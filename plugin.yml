@@ -1,0 +1,17 @@
+name: DocPlugin
+main: com.floyd.bukkit.doc.DocPlugin
+version: 1.14
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+description: >
+        Show MOTD and Rules
+commands:
+  motd:
+    description: Show message of the day
+    usage: /<command>
+  rules:
+    description: Show the server rules
+    usage: /<command>
+  help:
+    description: Access the custom help system
+    usage: /<command>
